@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Visor JSmol - Etano eclipsado en formato bolas y palos</title>
+  <title>Visor JSmol - Etano alternada eclipsado en formato bolas y palos</title>
   <!-- Se carga la librería JSmol desde un CDN -->
   <script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jsmol/JSmol.min.js"></script>
 </head>
@@ -17,10 +17,10 @@
       use: "HTML5",
       // Ruta a los archivos j2s necesarios para JSmol (usando el CDN)
       j2sPath: "https://chemapps.stolaf.edu/jmol/jsmol/j2s", 
-      // Carga el etano.mol y configura la visualización en formato bolas y palos:
+      // Carga el etano alternada.mol y configura la visualización en formato bolas y palos:
       // "spacefill 20%;" muestra los átomos como esferas (bolas) al 23% de su radio,
       // "wireframe 0.15;" dibuja las conexiones (palos) con un grosor de 0.15.
-      script: "load 'etano.mol'; select all; spacefill 23%; wireframe 0.15;",
+      script: "load 'etano alternada.mol'; select all; spacefill 23%; wireframe 0.15;",
       disableJ2SLoadMonitor: true,
       disableInitialConsole: true
     };
